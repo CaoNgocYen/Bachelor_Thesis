@@ -1,6 +1,6 @@
 import torch
 from datasets import load_dataset
-from rm_t5 import FlanT5RewardModel
+from reward_model.rm_flant5 import FlanT5RewardModel
 from transformers import AutoTokenizer
 import json
 import sys
